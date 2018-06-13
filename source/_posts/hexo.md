@@ -100,12 +100,12 @@ $ scheme: Pisces  // 选择 next 下的主题
 
 #### 新建 images 仓库
 - ##### 新建分类路径
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-112836.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/hexo/WX20180608-112836.png)
 - ##### 在文件后带 ' / ' ，会自动生成路径 
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-112928.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/hexo/WX20180608-112928.png)
 - ##### 上传文件
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-112952.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/hexo/WX20180608-112952.png)
 - ##### 选择文件
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-113019.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/hexo/WX20180608-113019.png)
 - ##### 提交修改
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-113042.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/hexo/WX20180608-113042.png)

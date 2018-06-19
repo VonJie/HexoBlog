@@ -80,5 +80,5 @@ theme: autumn
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/Wenj2/Wenj2.github.io.git
+  repository: https://github.com/VonJie/vonjie.github.io.git
   branch: master

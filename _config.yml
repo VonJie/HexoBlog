@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 前端开发小博客
-subtitle:  人生苦短，何妨一试
+title: 1+1=3
+subtitle:  i'll try anything once.
 description: 前端开发爱好者
 keywords: 前端开发,博客，日志
-author: 文杰
+author: jesse
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: autumn
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

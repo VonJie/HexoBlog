@@ -1,7 +1,12 @@
 ---
 title: 使用Hexo搭建个人博客
+tag: 
+- hexo
+categories: 
+- 前端开发
+description: 
+- 本文用于记录使用Hexo搭建个人博客的流程.
 ---
-本文用于记录使用Hexo搭建个人博客的流程.
 
 ## 一. [新建 github 仓库](https://github.com/Wenj2)
 

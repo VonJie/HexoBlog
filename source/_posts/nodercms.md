@@ -1,5 +1,11 @@
 ---
 title: NoderCMS 相关
+tag: 
+- CMS
+categories: 
+- Node.js
+description: 
+- 基于 Node.js & MongoDB 的 轻量级 CMS 内容管理系统
 ---
 
 ## 一. [NoderCms](http://www.nodercms.com/)

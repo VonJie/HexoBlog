@@ -1,6 +1,6 @@
 ---
 title: 使用Hexo搭建个人博客
-tag: 
+tags: 
 - hexo
 categories: 
 - 前端开发
@@ -95,6 +95,19 @@ $ footer:
 $ menu  // 配置导航菜单
 
 $ scheme: Pisces  // 选择 next 下的主题
+```
+#### 解决 tags 和 categories 404 问题
+```
+# tags
+$ hexo new page tags
+# source/tags/index.md
+$ type: tags
+# 一定要添加 comments: false，否则页面空白
+$ comments: false
+
+# categories
+$ hexo new page categories
+$ type: categories
 ```
 
 #### 配置 themes/next/layout/_partails/footer.swig

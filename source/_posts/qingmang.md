@@ -1,6 +1,6 @@
 ---
 title: 轻芒小程序+
-tag: 
+tags: 
 - 小程序
 categories: 
 - 微信相关

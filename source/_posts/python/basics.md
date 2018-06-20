@@ -12,6 +12,8 @@ description:
 ## 一、[版本切换]()
 #### `mac os` 自带 `Pyhton 2.7` ，如想使用 `Python 3` ，请前往官网自行下载安装
 #### [官网地址](https://www.python.org/)
+#### [python3 英文文档](https://docs.python.org/3/)
+#### [python3 中文文档](http://www.pythondoc.com/pythontutorial3/stdlib.html#tut-os-interface)
 #### 终端输入 `python` 可以看到版本号等信息
 #### 终端输入 `python3`
 #### 设置别名

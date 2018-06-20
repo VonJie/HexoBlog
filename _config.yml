@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 1+1=3
+title: mutool
 subtitle:  i'll try anything once.
 description: 前端开发爱好者
 keywords: 前端开发,博客，日志
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://vonjie.github.io/
+url: http://www.mutool.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -75,6 +75,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next # autumn
+
+Plugins:
+- hexo-generator-cname
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

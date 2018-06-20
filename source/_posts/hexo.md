@@ -1,5 +1,6 @@
 ---
 title: 使用Hexo搭建个人博客
+date: 2016-03-22 11:10:26
 tags: 
 - hexo
 categories: 

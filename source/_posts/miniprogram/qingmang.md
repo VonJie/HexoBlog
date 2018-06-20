@@ -1,9 +1,10 @@
 ---
 title: 轻芒小程序+
+date: 2018-06-16 13:36:50
 tags: 
-- 小程序
+- MiniProgram
 categories: 
-- 微信相关
+- WeChat
 description: 
 - 专注为内容创作者服务，免费、无需代码，快速生成小程序。微信公开课优秀案例,浙江卫视等合作伙伴都在用
 ---

@@ -1,6 +1,6 @@
 ---
 title: Python安装及基础知识
-date: 2018-06-20 09:28:26
+date: 2018-06-12 09:28:26
 tags: 
 - python
 categories: 

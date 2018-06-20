@@ -1,9 +1,10 @@
 ---
 title: 爱范儿 小电商
+date: 2018-06-15 16:52:25
 tags: 
-- 小程序
+- MiniProgram
 categories: 
-- 微信相关
+- WeChat
 description: 
 - 三分钟创建小程序商店
 ---

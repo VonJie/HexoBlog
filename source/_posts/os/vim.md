@@ -1,6 +1,6 @@
 ---
 layout: _post
-title: vim
+title: vim 常规命令
 date: 2018-06-20 17:34:27
 tags: 
 - vim
@@ -10,6 +10,10 @@ description:
 - vim 快捷操作
 ---
 
+##### 刷新
+```
+$ e
+```
 ##### 新增行
 ```
 // 在当前行下新增一行

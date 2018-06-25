@@ -392,10 +392,14 @@ while n < 10:
 # False
 ```
 
-##### `get()` 方法判断 `key` 是否存在
+##### `get()`
 ```
+# get() 函数返回指定键的值，如果值不在字典中返回默认值
+$ dict.get(key, default=None)
+
 >>> d.get('Thomas')
 # None, 默认值
+
 >>> d.get('Thomas', -1)
 # -1，指定值
 ```

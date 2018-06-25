@@ -9,13 +9,20 @@ categories:
 description: 
 - 有关 curl 命令的相关操作
 ---
+
+#### [相关链接](http://man.linuxde.net/curl)
 #### 语法
 ```
 $ curl [option] [url]
 ```
+#### `-i`
+```
+// 带上 protocol 信息
+$ curl -i "http://www.mutool.cn"
+```
 #### `GET`
 ```
-$ curl "http://www.mutool.cn"
+$ curl -i URL
 ```
 #### `POST`
 ```
@@ -24,6 +31,8 @@ $ curl -d "id=1" URL
 #### `PUT`
 ```
 $ curl -T uploadfile URL
+
+$ curl -i -H "Content-Type: application/json" -X POST -d '{"title":"Read a book"}' URL
 ```
 #### `user-agent` 用户代理
 ```
@@ -32,6 +41,10 @@ $ curl -A "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" URL
 #### cookie
 ```
 $ curl -b "id=1" URL
+```
+#### header
+```
+$ curl -H "Content-Type: application/json" URL
 ```
 #### 登录账号密码
 ```

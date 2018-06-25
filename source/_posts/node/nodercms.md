@@ -59,15 +59,15 @@ $ npm start
 
 ## 五. 网页配置
 - 打开本地网页 http://localhost:3000/admin/install
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-111348.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/nodercms/WX20180608-111348.png)
 - MongoDB 数据库连接配置
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-111430.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/nodercms/WX20180608-111430.png)
 - 设置 CMS 相关参数
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-111755.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/nodercms/WX20180608-111755.png)
 - 登陆系统
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-111822.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/nodercms/WX20180608-111822.png)
 - 进入后台主页
-![image](https://raw.githubusercontent.com/VonJie/images/master/blog/WX20180608-111837.png)
+![image](https://raw.githubusercontent.com/VonJie/images/master/blog/nodercms/WX20180608-111837.png)
 
 ## 六. 注意事项
 - 重新安装

@@ -31,7 +31,11 @@ $ scp name.tar node@120.92.103.226:path
 $ scp node@120.92.103.226:path/name.tar file
 ```
 
-### `ln` 命令用来为文件创件连接
+### `Centos` 查看版本信息
 ```
+$ cat /etc/redhat-release 
 
+// 查看 lunix 系统信息
+$ uname -a
+$ cat /proc/version
 ```

@@ -39,3 +39,15 @@ $ cat /etc/redhat-release
 $ uname -a
 $ cat /proc/version
 ```
+
+### 删除文件
+```
+// 单一或少量文件
+$ rm -rf *.*
+
+// 大量文件
+$ ls | args rm -rf
+
+// 删除一天之前的文件
+find . -type f -mtime +1 -exec rm {} \;
+```

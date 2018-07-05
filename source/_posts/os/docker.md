@@ -7,6 +7,11 @@ categories:
 - 操作系统
 ---
 
+#### 启动
+```
+$ service docker start
+```
+
 #### 列出容器
 ```
 $ docker ps

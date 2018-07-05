@@ -1,7 +1,7 @@
 ---
 layout: _posts
 title: Lunix 系统命令
-date: 2018-06-22 14:27:10
+date: 2018-03-20 14:27:10
 tags: lunix
 categories: 
 - 操作系统
@@ -31,13 +31,16 @@ $ scp name.tar node@120.92.103.226:path
 $ scp node@120.92.103.226:path/name.tar file
 ```
 
-### `Centos` 查看版本信息
+### `Centos` 系统相关
 ```
 $ cat /etc/redhat-release 
 
 // 查看 lunix 系统信息
 $ uname -a
 $ cat /proc/version
+
+// 语言环境
+locale
 ```
 
 ### 删除文件
@@ -50,4 +53,52 @@ $ ls | args rm -rf
 
 // 删除一天之前的文件
 find . -type f -mtime +1 -exec rm {} \;
+```
+
+### 内存分配
+```
+$ vi /etc/security/limits.d/20-nproc.conf
+```
+
+### 查看 端口/进程
+```
+$ lsof -i tcp:8181
+
+$ netstat -anp | grep 8181
+
+// 查看 node 相关进程
+$ ps -ef | grep node
+
+// 杀掉进程
+$ kill 17898
+
+// 杀掉所有相关进程
+$ ps -efww|grep chromium |grep -v grep|cut -c 9-15|xargs kill -9
+```
+
+### `crontab` 定时器
+```
+// 列出
+crontab -l
+
+// 编辑
+crontab -e
+
+## get the new proxylist.json every 2 hours
+1,11,21,31,41,51 * * * *  curl -sS 'http://proxy.badapp.cn:7777/listallproxy?token=thisismytoken&ptype=fast' -o ~/spiderdata/proxylist.json --compressed
+
+## test
+## * * * * * echo 'test' >> ~/test.log
+
+## proc restart node every 1 hours
+0 * * * * sh ~/restart.sh
+
+## clear headless chrome every 1 hours
+0 * * * * ps -efww|grep chromium |grep -v grep|cut -c 9-15|xargs kill -9
+
+## clear cheese.log every 1 hours
+0 * * * * rm -rf ~/wxjg-js-server/logs/*.*
+
+## clear html every 1 hours
+0 * * * * rm -rf /filestore/node/htmls/*.*
 ```

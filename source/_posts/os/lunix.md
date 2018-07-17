@@ -102,3 +102,14 @@ crontab -e
 ## clear html every 1 hours
 0 * * * * rm -rf /filestore/node/htmls/*.*
 ```
+
+### `ls`
+```
+ls -l
+
+// 按时间排序
+ls -l -tr
+
+// 文件数量
+ls -l | grep -c '^-'
+```

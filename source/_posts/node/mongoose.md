@@ -4,7 +4,7 @@ title: mongoose
 date: 2018-06-26 10:19:54
 tags: mongoose
 categories:
-- node
+- Node.js
 description: Mongoose 是在 node.js 环境下对 mongodb 进行便捷操作的对象模型工具
 ---
 

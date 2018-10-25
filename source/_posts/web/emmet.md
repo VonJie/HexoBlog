@@ -3,7 +3,7 @@ layout: _posts
 title: emmet
 date: 2018-06-28 11:05:47
 tags: emmet
-categories: web
+categories: web 工具
 description: emmet 相关用法
 ---
 

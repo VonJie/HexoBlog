@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="前端小站" />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="前端开发爱好者">
-<meta name="keywords" content="前端开发,博客，日志">
+<meta name="description" content="个人博客">
+<meta name="keywords" content="前端开发,博客,日志">
 <meta property="og:type" content="website">
 <meta property="og:title" content="mutool">
 <meta property="og:url" content="http://www.mutool.cn/index.html">
 <meta property="og:site_name" content="mutool">
-<meta property="og:description" content="前端开发爱好者">
+<meta property="og:description" content="个人博客">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mutool">
-<meta name="twitter:description" content="前端开发爱好者">
+<meta name="twitter:description" content="个人博客">
 
 
 
@@ -97,9 +97,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -161,7 +161,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">i'll try anything once.</p>
+        <p class="site-subtitle">jesse62@163.com</p>
       
   </div>
 
@@ -263,10 +263,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/10/26/node/git/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/10/26/skill/git/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -282,7 +282,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/10/26/node/git/" itemprop="url">git 使用指南</a></h1>
+                <a class="post-title-link" href="/2018/10/26/skill/git/" itemprop="url">廖雪峰《Git 教程》命令总结</a></h1>
         
 
         <div class="post-meta">
@@ -317,8 +317,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Node-js/" itemprop="url" rel="index">
-                    <span itemprop="name">Node.js</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -355,10 +355,10 @@
 
       
         
-          原文来自《廖雪峰 Git 教程》
+          <p>阅读完廖雪峰《Git 教程》一文后的一些记录，便于日后复习与查阅。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/10/26/node/git/">
+            <a class="btn" href="/2018/10/26/skill/git/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -409,10 +409,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/09/03/node/graphqlServer/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/09/03/skill/graphqlServer/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -428,7 +428,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/09/03/node/graphqlServer/" itemprop="url">graphql</a></h1>
+                <a class="post-title-link" href="/2018/09/03/skill/graphqlServer/" itemprop="url">graphql</a></h1>
         
 
         <div class="post-meta">
@@ -463,8 +463,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/graphql/" itemprop="url" rel="index">
-                    <span itemprop="name">graphql</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -501,10 +501,10 @@
 
       
         
-          graphql 服务端相关技术
+          <h2 id="一、关于GraphQL"><a href="#一、关于GraphQL" class="headerlink" title="一、关于GraphQL"></a>一、关于<code>GraphQL</code></h2><p>GraphQL 既是一种用于 API 的查询语言也是一个满足你数据查询的运行时。GraphQL 对你的 API 中的数据提供了一套易于理解的完整描述，使得客户端能够准确地获得它需要的数据，而且没有任何冗余，也让 API 更容易地随着时间推移而演进，还能用于构建强大的开发者工具。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/09/03/node/graphqlServer/">
+            <a class="btn" href="/2018/09/03/skill/graphqlServer/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -555,10 +555,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/08/26/node/node-orm2/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/08/26/skill/nodeOrm2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -574,7 +574,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/08/26/node/node-orm2/" itemprop="url">node-orm 相关</a></h1>
+                <a class="post-title-link" href="/2018/08/26/skill/nodeOrm2/" itemprop="url">node-orm2</a></h1>
         
 
         <div class="post-meta">
@@ -609,8 +609,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Node-js/" itemprop="url" rel="index">
-                    <span itemprop="name">Node.js</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -647,10 +647,11 @@
 
       
         
-          Mongoose 是在 node.js 环境下对 mongodb 进行便捷操作的对象模型工具
+          <h2 id="一、关于-node-orm2"><a href="#一、关于-node-orm2" class="headerlink" title="一、关于 node-orm2"></a>一、关于 <code>node-orm2</code></h2><blockquote>
+<p>ORM2是一款基于Node.js实现的ORM框架。<br>ORM指对象关系映射（英语：(Object Relational Mapping，简称ORM，或O/RM，或O/R mapping），是一种程序技术，用于实现面向对象编程语言里不同类型系统的数据之间的转换。简单的说，ORM是通过使用描述对象和数据库之间映射的元数据，将程序中的对象自动持久化到关系数据库中。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/08/26/node/node-orm2/">
+            <a class="btn" href="/2018/08/26/skill/nodeOrm2/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -701,10 +702,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/07/05/node/pm2/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/07/05/skill/pm2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -720,7 +721,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/07/05/node/pm2/" itemprop="url">pm2</a></h1>
+                <a class="post-title-link" href="/2018/07/05/skill/pm2/" itemprop="url">pm2</a></h1>
         
 
         <div class="post-meta">
@@ -755,8 +756,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Node-js/" itemprop="url" rel="index">
-                    <span itemprop="name">Node.js</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -793,10 +794,10 @@
 
       
         
-          pm2是一个带有负载均衡功能的应用进程管理器
+          <h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a><a href="https://pm2.io/doc/en/runtime/overview/?utm_source=pm2&amp;utm_medium=website&amp;utm_campaign=rebranding" target="_blank" rel="noopener">官网</a></h3><p>pm2是一个带有负载均衡功能的应用进程管理器<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/07/05/node/pm2/">
+            <a class="btn" href="/2018/07/05/skill/pm2/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -850,7 +851,7 @@
     <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/07/04/article/tradewar/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -901,8 +902,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/article/" itemprop="url" rel="index">
-                    <span itemprop="name">article</span>
+                  <a href="/categories/文章/" itemprop="url" rel="index">
+                    <span itemprop="name">文章</span>
                   </a>
                 </span>
 
@@ -939,10 +940,15 @@
 
       
         
-          原文地址：https://weibo.com/ttarticle/p/show?id=2309404257709301067955
+          <blockquote>
+<p>原文地址：<a href="https://weibo.com/ttarticle/p/show?id=2309404257709301067955" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404257709301067955</a></p>
+</blockquote>
+<p>亲爱的经济学院、金融学院的全体毕业生同学，尊敬的毕业生家长，经济学院的各位领导和老师，大家下午好！</p>
+<p>大家可能注意到，与以往不同，今天我准备了个讲话提纲，因为我认真地做了一些准备，权当是我给各位同学们上的最后一堂课，也包含着对各位同学的嘱托。</p>
+<p>今天我想讲三个方面的问题：第一是中美贸易战对我们意味着什么？第二是我们应当从中吸取什么样的教训？第三是想借此机会谈几点对同学们未来工作、生活的嘱托和希望。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/07/04/article/tradewar/">
+            <a class="btn" href="/2018/07/04/article/tradewar/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -993,10 +999,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/28/web/emmet/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/28/skill/emmet/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -1012,7 +1018,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/28/web/emmet/" itemprop="url">emmet</a></h1>
+                <a class="post-title-link" href="/2018/06/28/skill/emmet/" itemprop="url">Emmet 语法</a></h1>
         
 
         <div class="post-meta">
@@ -1047,8 +1053,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/web-工具/" itemprop="url" rel="index">
-                    <span itemprop="name">web 工具</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -1085,10 +1091,10 @@
 
       
         
-          emmet 相关用法
+          <h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>Emmet (前身为 Zen Coding) 是一个能大幅度提高前端开发效率的一个工具. 在前端开发的过程中，一大部分的工作是写 HTML、CSS 代码。特别是手动编写 HTML 代码的时候，效率会特别低下，因为需要敲打很多尖括号，而且很多标签都需要闭合标签等。于是，就有了 Emmet，它可以极大的提高代码编写的效率，它提供了一种非常简练的语法规则，然后立刻生成对应的 HTML 结构或者 CSS 代码，同时还有多种实用的功能帮助进行前端开发。<br>VsCode内置了Emmet语法,在后缀为.html/.css中输入缩写后按Tab键即会自动生成相应代码<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/06/28/web/emmet/">
+            <a class="btn" href="/2018/06/28/skill/emmet/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1139,10 +1145,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/26/others/mongodb/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/26/skill/mongodb/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -1158,7 +1164,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/26/others/mongodb/" itemprop="url">mongodb 相关操作</a></h1>
+                <a class="post-title-link" href="/2018/06/26/skill/mongodb/" itemprop="url">mongodb</a></h1>
         
 
         <div class="post-meta">
@@ -1193,8 +1199,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/数据库/" itemprop="url" rel="index">
-                    <span itemprop="name">数据库</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -1234,7 +1240,7 @@
           数据库 mongodb 相关操作
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/06/26/others/mongodb/">
+            <a class="btn" href="/2018/06/26/skill/mongodb/">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1285,10 +1291,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/26/node/mongoose/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/26/skill/mongoose/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -1304,7 +1310,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/26/node/mongoose/" itemprop="url">mongoose</a></h1>
+                <a class="post-title-link" href="/2018/06/26/skill/mongoose/" itemprop="url">mongoose</a></h1>
         
 
         <div class="post-meta">
@@ -1339,8 +1345,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Node-js/" itemprop="url" rel="index">
-                    <span itemprop="name">Node.js</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -1377,10 +1383,11 @@
 
       
         
-          Mongoose 是在 node.js 环境下对 mongodb 进行便捷操作的对象模型工具
+          <p>Mongoose 是在 node.js 环境下对 mongodb 进行便捷操作的对象模型工具</p>
+<h2 id="什么是-Mongoose"><a href="#什么是-Mongoose" class="headerlink" title="什么是 Mongoose"></a>什么是 <code>Mongoose</code></h2><h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a><a href="http://mongoosejs.com/" target="_blank" rel="noopener">官网</a></h3><h3 id="中文文档-v4"><a href="#中文文档-v4" class="headerlink" title="中文文档 v4"></a><a href="https://mongoose.shujuwajue.com/" target="_blank" rel="noopener">中文文档 v4</a></h3><p><code>Mongoose</code> 是在 <code>node.js</code> 环境下对 <code>mongodb</code> 进行便捷操作的对象模型工具</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/06/26/node/mongoose/">
+            <a class="btn" href="/2018/06/26/skill/mongoose/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1431,10 +1438,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/25/os/docker/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/25/skill/docker/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -1450,7 +1457,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/25/os/docker/" itemprop="url">docker</a></h1>
+                <a class="post-title-link" href="/2018/06/25/skill/docker/" itemprop="url">docker 命令</a></h1>
         
 
         <div class="post-meta">
@@ -1485,8 +1492,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/操作系统/" itemprop="url" rel="index">
-                    <span itemprop="name">操作系统</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -1523,12 +1530,14 @@
 
       
         
-          
-            <h4 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ service docker start</span><br></pre></td></tr></table></figure>
-<h4 id="列出容器"><a href="#列出容器" class="headerlink" title="列出容器"></a>列出容器</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ docker ps</span><br><span class="line"></span><br><span class="line">//-- 附加参数 --//</span><br><span class="line">$ -a  // 显示所有容器</span><br><span class="line">$ -f  // 根据条件筛选</span><br><span class="line">$ -l  // 显示最近创建</span><br></pre></td></tr></table></figure>
-<h4 id="MongoDB-相关操作"><a href="#MongoDB-相关操作" class="headerlink" title="MongoDB 相关操作"></a>MongoDB 相关操作</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ docker run --name nodercms -d mongo:3.6.5</span><br><span class="line">$ docker exec -t nodercms bash</span><br><span class="line">$ mongo</span><br></pre></td></tr></table></figure>
-
-          
+          <h4 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ service docker start</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/25/skill/docker/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1575,10 +1584,10 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/22/os/supervisor/">
+    <link itemprop="mainEntityOfPage" href="http://www.mutool.cn/2018/06/22/skill/supervisor/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="jesse">
+      <meta itemprop="name" content="文杰">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -1594,7 +1603,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/22/os/supervisor/" itemprop="url">supervisor</a></h1>
+                <a class="post-title-link" href="/2018/06/22/skill/supervisor/" itemprop="url">supervisor</a></h1>
         
 
         <div class="post-meta">
@@ -1629,8 +1638,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/操作系统/" itemprop="url" rel="index">
-                    <span itemprop="name">操作系统</span>
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
                   </a>
                 </span>
 
@@ -1667,10 +1676,10 @@
 
       
         
-          在 web 应用部署到线上后，需要保证应用一直处于运行状态，在遇到程序异常、报错等情况，导致 web 应用终止时，需要保证程序可以立刻重启，继续提供服务。所以，就需要一个工具，时刻监控 web 应用的运行情况，管理该进程。Supervisor 就是解决这种需求的工具，可以保证程序崩溃后，重新把程序启动起来等功能。
+          <h3 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h3><p>在 web 应用部署到线上后，需要保证应用一直处于运行状态，在遇到程序异常、报错等情况，导致 web 应用终止时，需要保证程序可以立刻重启，继续提供服务。所以，就需要一个工具，时刻监控 web 应用的运行情况，管理该进程。Supervisor 就是解决这种需求的工具，可以保证程序崩溃后，重新把程序启动起来等功能。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/06/22/os/supervisor/">
+            <a class="btn" href="/2018/06/22/skill/supervisor/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1747,8 +1756,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">jesse</p>
-              <p class="site-description motion-element" itemprop="description">前端开发爱好者</p>
+              <p class="site-author-name" itemprop="name">文杰</p>
+              <p class="site-description motion-element" itemprop="description">个人博客</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -1758,7 +1767,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">30</span>
+                  <span class="site-state-item-count">28</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1769,7 +1778,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -1780,7 +1789,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">18</span>
+                  <span class="site-state-item-count">25</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -1817,16 +1826,17 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <!--
-<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  
-  <span class="author" itemprop="copyrightHolder">jesse</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">文杰</span>
 
   
 </div>
 
 
-  <div class="powered-by">私人定制</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -1834,12 +1844,10 @@
 
 
 
-
-  <div class="theme-info"><a class="theme-link" target="_blank" href="https://github.com/Wenj2/">gitthub</a></div>
-
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
--->
+
 
         
 
@@ -1935,6 +1943,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 

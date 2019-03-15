@@ -106,12 +106,27 @@ git stash pop
 // 恢复的同时把stash内容也删了
 ```
 ## github 仓库
+### 全局设置
+```
+git config --global user.name "wenj"
+git config --global user.email "wenj@lonchura.cn"
+```
+### 初始化一个已存在的文件夹
+```
+git init
+git remote add origin https://gitlab.badapp.cn/wenj/lonchura-hotel-mall-manager.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
 ### 把一个已有的本地仓库与之关联
 ```
+git remote rename origin old-origin
 git remote add origin git@github.com:VonJie/learngit.git
 
 // 第一次 push 时，参数 -u，把本地的master分支和远程的master分支关联起来
-git push -u origin master
+git push -u origin --all
+git push -u origin --tags
 ```
 ### 创建并切换至分支
 ```

@@ -9,6 +9,7 @@ categories: 技术
 <!--more-->
 ## 一、简介
 [廖雪峰《Git 教程》](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+[在游戏中学习 Git](https://learngitbranching.js.org/)
 ### Git 是什么？
 Git是目前世界上最先进的<font color=#2a8be6 size=4 >分布式</font>版本控制系统。
 ## 二、命令
